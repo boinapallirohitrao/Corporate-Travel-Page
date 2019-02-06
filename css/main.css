@@ -200,6 +200,10 @@ ul.skybooker-nav-right li {
   padding: 0px;
 }
 
+.no-margin {
+  margin: 0px;
+}
+
 #global-travel {
   margin-bottom: 2%;
   background: white;
@@ -207,6 +211,7 @@ ul.skybooker-nav-right li {
   background: -webkit-gradient(linear, left top, right top, from(white), to(#e6e6e6));
   background: linear-gradient(to right, white 0%, #e6e6e6 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=1 );
+  overflow: hidden;
 }
 
 #global-travel .travel-img {
@@ -216,7 +221,7 @@ ul.skybooker-nav-right li {
 }
 
 #global-travel .contain {
-  padding: 20% 0%;
+  padding: 18% 0%;
 }
 
 #global-travel .contain h2 {
@@ -245,6 +250,7 @@ ul.skybooker-nav-right li {
   background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(white));
   background: linear-gradient(to right, #e6e6e6 0%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#ffffff', GradientType=1 );
+  overflow: hidden;
 }
 
 #any-time .travel-img {
@@ -366,6 +372,10 @@ ul.skybooker-nav-right li {
   margin-bottom: 2%;
 }
 
+#latest-block .latest {
+  font-size: 28px;
+}
+
 #latest-block .contain-business {
   padding: 10px;
   border: 1px solid #d8d7d7;
@@ -376,12 +386,13 @@ ul.skybooker-nav-right li {
 }
 
 #latest-block h2 {
-  font-size: 24px;
-  min-height: 80px;
+  font-size: 18px;
+  min-height: 50px;
+  line-height: 22px;
 }
 
 #latest-block p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   min-height: 170px;
 }
@@ -685,6 +696,9 @@ footer.page-footer a {
   }
   .travel-img {
     display: none;
+  }
+  #banner {
+    height: 50vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
