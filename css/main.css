@@ -205,6 +205,7 @@ ul.skybooker-nav-right li {
 }
 
 #global-travel {
+  position: relative;
   margin-bottom: 2%;
   background: white;
   background: -webkit-gradient(left top, right top, color-stop(0%, white), color-stop(100%, #e6e6e6));
@@ -216,8 +217,11 @@ ul.skybooker-nav-right li {
 
 #global-travel .travel-img {
   width: 30%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   position: absolute;
-  left: 0px;
+  left: 0;
 }
 
 #global-travel .contain {
@@ -244,6 +248,7 @@ ul.skybooker-nav-right li {
 }
 
 #any-time {
+  position: relative;
   margin-bottom: 2%;
   background: #e6e6e6;
   background: -webkit-gradient(left top, right top, color-stop(0%, #e6e6e6), color-stop(100%, white));
@@ -255,8 +260,11 @@ ul.skybooker-nav-right li {
 
 #any-time .travel-img {
   width: 30%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   position: absolute;
-  right: 0px;
+  right: 0;
 }
 
 #any-time .contain {
